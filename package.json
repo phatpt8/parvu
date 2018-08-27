@@ -1,0 +1,40 @@
+{
+  "name": "parvu",
+  "version": "0.0.1",
+  "description": "parvu-starter-kit",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "parcel ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phatpt8/parvu.git"
+  },
+  "author": "phat.phamtrong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phatpt8/parvu/issues"
+  },
+  "homepage": "https://github.com/phatpt8/parvu#readme",
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.2.0",
+    "babel-cli": "^6.26.0",
+    "babel-helper-vue-jsx-merge-props": "^2.0.3",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-vue-jsx": "^3.7.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.79.1",
+    "pug": "^2.0.3",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "dependencies": {
+    "src": "^1.1.2",
+    "vue": "^2.5.17",
+    "vue-hot-reload-api": "^2.3.0"
+  },
+  "alias": {
+    "vue": "./node_modules/vue/dist/vue.common.js"
+  }
+}
