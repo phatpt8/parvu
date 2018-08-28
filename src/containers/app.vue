@@ -9,13 +9,8 @@
 
   export default {
     name: 'App',
-    components: {
-      Layout
-    },
-    // computed: {
-    //   component () {
-    //     console.log(this);
-    //   }
+    // components: {
+    //   Layout
     // },
   }
 </script>
