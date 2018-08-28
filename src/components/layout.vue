@@ -1,17 +1,20 @@
 <template>
-  <span class="ok">ok</span>
+  <div class="layout">
+    Hi {{ msg }}
+    <Hello />
+  </div>
 </template>
 
 
 <script>
-import Hello from '../components/hello'
+import Hello from './hello.vue'
 export default {
   name: 'Layout',
-  // components: {
-  //   Hello
-  // },
+  components: {
+    Hello,
+  },
+  props: {
+    msg: String
+  }
 }
 </script>
-
-<style lang="stylus">
-</style>

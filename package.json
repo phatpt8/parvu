@@ -26,15 +26,18 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-flow": "^6.23.0",
     "flow-bin": "^0.79.1",
-    "pug": "^2.0.3",
     "vue-template-compiler": "^2.5.17"
   },
   "dependencies": {
-    "src": "^1.1.2",
     "vue": "^2.5.17",
     "vue-hot-reload-api": "^2.3.0"
   },
   "alias": {
     "vue": "./node_modules/vue/dist/vue.common.js"
-  }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
 }

@@ -1,16 +1,9 @@
-<template lang="pug">
-  .my-app
-    v-card
-      span Hello {{ name }}
+<template>
+  <div class="hello">hello</div>
 </template>
 
 <script>
 export default {
-  name: 'Hello',
-  data() {
-    return {
-      name: 'world'
-    }
-  }
+  name: 'Hello'
 }
 </script>
